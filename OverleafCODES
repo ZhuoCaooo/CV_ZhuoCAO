@@ -1,0 +1,131 @@
+% resume.tex
+%
+% (c) 2022 Zhuo CAO, University of Queensland
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins to 0.5in on all sides
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large Zhuo Cao}  & +61 0481302832 (cell)\\
+1005 Anzac Parade &  caozhuojoe@gmail.com \\
+Maroubra, Sydney 2035& www.linkedin.com/in/zhuo-cao-08191999cao\\
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{University of Queensland}{Brisbane, Australia}{Doctor of Philosophy}{July. 2022 - Ongoing}
+	\begin{itemize}
+		\resitem{Thesis Concepts: Adoption of AI and Machine Learning in Urban Mobility Analytics}
+	\end{itemize}
+\item
+	\ressubheading{University of New South Wales}{Sydney, Australia}{Bachelor of Engineering in Civil Engineering \textbf{(1st Class Honours)}}{March. 2018 – June. 2022}
+	\begin{itemize}
+		\resitem{Thesis Title: A traffic assignment performance analysis and lane capacity management model in mixed traffic network environment with connected and conventional vehicles}
+	\end{itemize}
+\end{itemize}
+
+
+\resheading{Publications}
+\begin{itemize}
+
+\resitem{\textbf{Cao Zhuo}. A traffic assignment performance analysis and lane capacity management model in mixed traffic network environment with connected and conventional vehicles, \emph{Honours Research Thesis, UNSW}, 2021.}
+
+\resitem{Zhou Zhanhui, \textbf{Cao Zhuo}, She Zhangcong, Ma Jiahui, Wu Jiawen, Zu Xuanhao (2021). On-Demand Trajectory Prediction Based on Adaptable Interaction Car Following Model with Decreasing Tolerance, \emph{2021 International Conference on Computers and Automation (CompAuto), 2021}, pp. 67-72, doi: 10.1109/CompAuto54408.2021.00020.}
+
+\end{itemize}
+
+
+
+\resheading{Research Experience}
+\begin{itemize}
+\item
+	\ressubheading{Traffic Flow Theory in Mixed Traffic Network}{UNSW, Sydney}{Supervisor: Dr.Wei Liu}{June. 2021 - June. 2022}
+	\begin{itemize}
+		\resitem{Aimed to evaluate the impact of the lane management policies on the mixed traffic model}
+		\resitem{Extend traditional traffic assignment problem to mixed traffic with multiple equilibrium behavior assignment problems}
+		\resitem{Introduce the platooning intensity parameter to lane management policies and link capacity performance analyzing}
+		\resitem{System Optimization of the multi-class traffic assignment model under different CAV market penetration rates and lane management policies}
+	\end{itemize}
+
+\item
+	\ressubheading{Neural Network Based Car Following Model Calibration}{UNSW, Sydney}{Supervisor: Dr.Changliu Liu}{May. 2021 - August. 2021}
+	\begin{itemize}
+		\resitem{Intended to develop a car-following model (CFM) based on the trajectory data from NGSIM datasets.}
+		\resitem{Compared the performance of model-based CFM (IDM) and model-free CFM (Neural Network Model and Interaction Model) by pre-training on NGSIM data set and conducting online testing with a subset of trajectory data from NGSIM.}
+		\resitem{Publication:\emph{On-demand Trajectory Prediction Based on Adaptable Interaction Car Following Model with Decreasing Tolerance}, 2021}
+	\end{itemize}
+	
+\end{itemize}
+
+\resheading{Work Experience}
+\begin{itemize}
+\item
+	\ressubheading{Wenzhou Design Assembly Company, Ltd.}{Wenzhou, China}{Assistant Planning Engineer-First Architectural Design Institute}{November. 2020 - February. 2021}
+	\begin{itemize}
+		\resitem{Participated in the preliminary investigation of the land area “WuTian” in Wenzhou including location analysis, industry research, and developmental research and planning.}
+		\resitem{Assisted to complete the community design and road traffic framework by the principle of “Transit-Oriented Development” (TOD).}
+		\resitem{Completed the preliminary design of the first future community in Wenzhou, which is also the first application of TOD in the urban designing of Wenzhou.}
+	\end{itemize}
+
+	
+\end{itemize}
+
+
+\resheading{Awards}
+
+\begin{itemize}
+	\resitem{Dean's Honours List, 2021, \emph{UNSW, Sydney}}
+	
+\end{itemize}
+
+
+
+
+\resheading{Skills and Additional Information}
+
+\begin{description}
+\item[Coding Platforms:]
+Python, Matlab
+\item[Professional Software:]
+AutoCAD, AMPL, AUSTROAD, SketchUP, LaTeX
+\item[Language:]
+Mandarin, English
+\item[GRE Test:]
+V154, Q170, AW3.5
+\end{description}
+
+
+
+\end{document}
